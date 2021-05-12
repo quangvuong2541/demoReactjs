@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
+
 import {
   HeroContainer,
   HeroContent,
@@ -9,6 +10,7 @@ import {
   HeroP,
   HeroBtn,
 } from "./HeroElements";
+
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +23,7 @@ const Hero = () => {
     <HeroContainer>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
+
       <HeroContent>
         <HeroItems>
           <HeroH1>Yến nhà Khánh Hòa</HeroH1>

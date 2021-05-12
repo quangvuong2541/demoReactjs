@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav, NavLink, NavIcon, Bars, H1 } from './NavbarElements';
-
 const Navbar = ({ toggle }) => {
   return (
     <>
@@ -8,7 +7,7 @@ const Navbar = ({ toggle }) => {
         <NavLink to='/'><H1>Yến Sào Sơn Hà</H1></NavLink>
  
         <NavIcon onClick={toggle}>
-          <p>Menu</p>
+            <p>menu</p>
           <Bars />
         </NavIcon>
       </Nav>
